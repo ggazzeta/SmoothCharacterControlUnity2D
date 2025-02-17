@@ -8,7 +8,7 @@ This script provides smooth movement and jumping mechanics for a 2D Unity game, 
 - **Automatic character flipping** based on movement direction (optional).
 
 ## Setup
-1. Attach `SmoothCharacterControl` to your character GameObject.
+1. Attach `SmoothCharacterControl.cs` to your character GameObject.
 2. Ensure it has a **Rigidbody2D** and **Collider2D**.
 3. Mark the ground objects with the `Floor` tag.
 4. Configure input mappings in [Unity's Input Manager](https://docs.unity3d.com/Manual/class-InputManager.html).
